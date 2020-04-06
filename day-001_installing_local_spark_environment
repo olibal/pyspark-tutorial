@@ -100,12 +100,12 @@ Now I want to check, if Spark runs on my system.
 Step 4: Starting an interactive Spark shell
 -------------------------------------------
 
-I created a virtual Python enviroment for my pyspark project to avoid side effects on other python projects on my system,
-so I change to my pyspark venv folder.
+I created a virtual Python enviroment for my pyspark-tutorial project to avoid side effects on other python projects
+on my system, so I change to my pyspark-tutorial venv folder.
 
 The easiest way to check, if my Spark installation was successful, is to start the interactive Python shell of Spark.
 
-    oli@prime73:~/python/python3-7/pyspark-sandbox$ ./bin/pyspark
+    oli@prime73:~/python/python3-7/pyspark-tutorial$ ./bin/pyspark
 
     Python 2.7.17 (default, Nov  7 2019, 10:07:09)
     [GCC 9.2.1 20191008] on linux2
@@ -161,7 +161,7 @@ Before I finish for today, I'd like to test that Jupyter notebooks are working o
 this project, I just have to issue the Jupyter Notebook command and pass the root pass of my project, so the notebook
 will open up right in the folder, I want to store my project files in.
 
-    oli@prime73:~/python/python3-7/pyspark-sandbox/bin$ ./jupyter notebook /home/oli/Git/pyspark-sandbox
+    oli@prime73:~/python/python3-7/pyspark-tutorial/bin$ ./jupyter notebook /home/oli/github/pyspark-tutorial
 
 If my installation was successful, I should get the following response including the URL of the notebook to open in
 my web browser.
@@ -202,8 +202,7 @@ Challenge completed. My Spark environment is up and running on my Ubuntu laptop 
     - openjdk "1.8.0_242"         JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
     - spark-2.4.5                 SPARK_HOME="/home/oli/spark/spark-2.4.5-bin-hadoop2.7"
     - Python3.7
-    - pyspark 2.4.5               Python venv: /home/oli/python/python3-7/pyspark-sandbox
-    - My "pyspark" project repo   /home/oli/Git/pyspark-sandbox
-    - Data repo                   /home/oli/Git/SparkDefiniteGuideCodeRepo
+    - pyspark 2.4.5               Python venv: /home/oli/python/python3-7/pyspark-tutorial
+    - my project repo             /home/oli/github/pyspark-tutorial
 
 It's time to have a beer.
