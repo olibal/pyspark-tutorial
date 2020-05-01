@@ -4,14 +4,14 @@ A diary of my learning journey into the world of Apache Spark (pyspark) from an 
 To follow my journey you will need:
 * openjdk-1.8.0_242
 * spark-2.4.5                 
-* pyspark2.4.5
 * python3.7.7
+* Python packages (ref. Pipfile)
   * findspark
   * jupyter
   * numpy
   * pandas
   * pypandoc
-  * pyspark
+  * pyspark2.4.5
 
 My learning path:
 * Day 1: Installing a local Spark environment
