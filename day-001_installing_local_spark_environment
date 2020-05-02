@@ -202,7 +202,7 @@ Challenge completed. My Spark environment is up and running on my Ubuntu laptop 
     - openjdk "1.8.0_242"         JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
     - spark-2.4.5                 SPARK_HOME="/home/oli/spark/spark-2.4.5-bin-hadoop2.7"
     - Python3.7
-    - pyspark 2.4.5               Python venv: /home/oli/python/python3-7/pyspark-tutorial
+    - pyspark 2.4.5
     - my project repo             /home/oli/github/pyspark-tutorial
 
 It's time to have a beer.
