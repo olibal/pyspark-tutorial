@@ -23,3 +23,4 @@ My learning path:
 * Day 7: Handling of NULL values
 * Day 8: JSON and complex data types to analyse semi-/unstructured data
 * Day 9: Joins
+* Day 10 : Connectors and I/O performance
