@@ -11,7 +11,7 @@ jupyter = "*"
 numpy = "*"
 pandas = "*"
 pypandoc = "*"
-pyspark = "*"
+pyspark = "==3.0.0"
 
 [requires]
 python_version = "3.7"
